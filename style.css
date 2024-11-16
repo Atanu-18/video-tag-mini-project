@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #fff, #848282);
+    /* min-height: 100vh; */
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e6e6ec;
+    padding: 20px 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.nav i{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.nav a:hover {
+    color: gray;
+}
+
+.nav li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+
+.link:hover, .active{
+    border-bottom: 2px solid #333;
+}
+
+.buy-button {
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgb(34, 32, 31),2px 2px 20px rgb(141, 138, 140);
+    transition: all 0.5s;
+}
+
+.buy-button:hover {
+    font-size: 1rem;
+    color: #000;
+    background-color: gray;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 2px 2px 20px rgb(34, 32, 31),2px 2px 20px rgb(127, 125, 126);
+}
+
+/* Main Content Styling */
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main-content h2 {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #9e9b9b, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    background: linear-gradient(90deg, #b3b5b5, #111111);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.macbook-button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 20px rgb(34, 32, 31),2px 2px 20px rgb(127, 125, 126);
+    transition: all 0.5s;
+}
+
+.macbook-button:hover {
+    color: #000;
+    background-color: gray;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 2px 2px 20px rgb(34, 32, 31),2px 2px 20px rgb(127, 125, 126);
+}
+
+.main-content h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+/* Video Container Styling */
+.video-container {
+    display: flex;
+    justify-content: center;
+}
